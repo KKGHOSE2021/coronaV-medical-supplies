@@ -8,7 +8,7 @@ const AddProduct = () => {
     const { register, handleSubmit, errors, reset } = useForm();
 
     useEffect(() => {
-        fetch('http://localhost:5000/products')
+        fetch('https://rocky-oasis-87872.herokuapp.com/products')
             .then(res => res.json())
             .then(data => setProducts(data))
     }, [products])
@@ -25,7 +25,7 @@ const AddProduct = () => {
         };
         console.log("product", product)
 
-        await fetch('http://localhost:5000/addEvent', {
+        await fetch('https://rocky-oasis-87872.herokuapp.com/addEvent', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

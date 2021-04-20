@@ -10,7 +10,7 @@ const Checkout = () => {
     const history = useHistory();
 
     useEffect(()=>{
-        const url = `http://localhost:5000/checkout/${id}`; 
+        const url = `https://rocky-oasis-87872.herokuapp.com/checkout/${id}`; 
         console.log(url);
         fetch(url)
         .then(res => res.json())

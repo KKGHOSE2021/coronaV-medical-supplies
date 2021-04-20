@@ -6,7 +6,7 @@ const OrderList = () => {
     const [products, setProducts] = useState([]);
 
     useEffect(()=>{
-        fetch('http://localhost:5000/orderPlacedByEmail?email='+loggedInUser.email)
+        fetch('https://rocky-oasis-87872.herokuapp.com/orderPlacedByEmail?email='+loggedInUser.email)
         .then(res=>res.json())
         .then(data=>setProducts(data));
     }, [])

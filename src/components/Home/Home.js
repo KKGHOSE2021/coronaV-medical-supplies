@@ -13,13 +13,13 @@ const Home = () => {
     const [reviews, setReviews] = useState([]);  
 
     useEffect(()=>{
-        fetch('http://localhost:5000/products')
+        fetch('https://rocky-oasis-87872.herokuapp.com/products')
         .then(res=>res.json())
         .then(data=>setProducts(data))
     }, [products]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/reviews')
+        fetch('https://rocky-oasis-87872.herokuapp.com/reviews')
             .then(res => res.json())
             .then(data => setReviews(data))
     }, [reviews]);

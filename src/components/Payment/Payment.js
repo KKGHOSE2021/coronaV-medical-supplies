@@ -123,7 +123,7 @@ const CheckoutForm = (props) => {
     const {name, email, vaccine, vacType, price} = props;
     const orderDetails = {name, email, vaccine, vacType, price, paymentId, orderTime: new Date()};
 
-    fetch(`http://localhost:5000/addOrder`,{
+    fetch(`https://rocky-oasis-87872.herokuapp.com/addOrder`,{
       method: 'POST',
       headers: {
           'Content-Type': 'application/json'

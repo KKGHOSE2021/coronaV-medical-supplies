@@ -6,14 +6,14 @@ const ManageProduct = () => {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/products')
+        fetch('https://rocky-oasis-87872.herokuapp.com/products')
             .then(res => res.json())
             .then(data => setProducts(data))
     }, [products])
 
     const handleDeleteProduct = (id) => {
         console.log("deleteProduct", id);
-        fetch(`http://localhost:5000/delete/${id}`, {
+        fetch(`https://rocky-oasis-87872.herokuapp.com/delete/${id}`, {
             method: 'DELETE'
         })
             .then(res => res.json())

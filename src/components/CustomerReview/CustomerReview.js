@@ -14,7 +14,7 @@ const CustomerReview = () => {
         };
         console.log("product", review)
 
-        await fetch('http://localhost:5000/addReview', {
+        await fetch('https://rocky-oasis-87872.herokuapp.com/addReview', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

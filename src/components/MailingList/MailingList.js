@@ -6,7 +6,7 @@ const MailingList = () => {
     const [subscriber, setSubscriber] = useState({email:""});
 
     const handleSubmit = (e)=>{          
-         fetch(`http://localhost:5000/addSubscriber`,{
+         fetch(`https://rocky-oasis-87872.herokuapp.com/addSubscriber`,{
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
