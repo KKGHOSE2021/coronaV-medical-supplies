@@ -1,0 +1,18 @@
+.banner-left h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 black;
+     
+}
+
+.banner-left p{
+    color: black;
+    text-align: justify; 
+}
+
+.banner-img img{
+  height: 300px; 
+  float: right; 
+}
