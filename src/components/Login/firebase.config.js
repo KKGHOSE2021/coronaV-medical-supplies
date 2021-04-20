@@ -1,9 +1,9 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyDqal8ViofNyubifc-Viev7-0PjZEBbD2g",
-    authDomain: "cell-phone-shop.firebaseapp.com",
-    projectId: "cell-phone-shop",
-    storageBucket: "cell-phone-shop.appspot.com",
-    messagingSenderId: "258235184199",
-    appId: "1:258235184199:web:c3e4b8fc90237e10b32d62"
-  };
-  export default firebaseConfig;
+  apiKey: "AIzaSyCaFyAGwXEQ_TNc-z20nTGQq_f_RZgrxC8",
+  authDomain: "corona-virus-supplies.firebaseapp.com",
+  projectId: "corona-virus-supplies",
+  storageBucket: "corona-virus-supplies.appspot.com",
+  messagingSenderId: "947811834344",
+  appId: "1:947811834344:web:56ee0d4bc97a4cf454ac5d"
+};
+export default firebaseConfig;
